@@ -1,0 +1,5 @@
+prune *
+include LICENSE
+include README.rst
+graft appcraft_logging
+prune **/__pycache__
